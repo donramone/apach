@@ -2,16 +2,16 @@ from django.shortcuts import render, HttpResponse
 
 # Create your views here.
 def home(request):
-    return HttpResponse("Inicio")
+    return render(request ,"gestionApach/home.html")
 
 def castracion(request):
-    return HttpResponse("Castracion")
+    return render(request ,"gestionApach/castracion.html")
 
 def vacunacion(request):
-    return HttpResponse("Vacunacion")
+    return render(request ,"gestionApach/vacunacion.html")
 
 def veterinario(request):
-    return HttpResponse("Veterinarios")
+    return render(request ,"gestionApach/veterinario.html")
 
 def contacto(request):
-    return HttpResponse("Contaco")
+    return render(request ,"gestionApach/contacto.html")
