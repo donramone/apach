@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+
+<head>
+    <title>{% block title %}{% endblock %}</title>
+</head>
+<body>
+    <!-- { % include "barra-navegacion.html" % } -->
+    <h1>Plantilla base para reutilizar en los demas archivos Html</h1>
+    {% block content %}
+    {% endblock %}
+    <p>Pie de pagina</p>
+</body>
+</html>

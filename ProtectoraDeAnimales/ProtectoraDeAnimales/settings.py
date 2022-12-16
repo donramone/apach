@@ -55,7 +55,7 @@ ROOT_URLCONF = 'ProtectoraDeAnimales.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ["C:/Users/Luigi/OneDrive/Escritorio/apach/ProtectoraDeAnimales/gestionApach/templates/gestionApach"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

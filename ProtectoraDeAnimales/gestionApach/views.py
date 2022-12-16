@@ -1,5 +1,5 @@
 from django.shortcuts import render, HttpResponse
-
+from django.template import loader
 # Create your views here.
 def home(request):
     return render(request ,"gestionApach/home.html")
@@ -14,4 +14,4 @@ def veterinario(request):
     return render(request ,"gestionApach/veterinario.html")
 
 def contacto(request):
-    return render(request ,"gestionApach/contacto.html")
+    return render(request ,"gestionApach/contacto.html", {})
